@@ -3,7 +3,7 @@ A Simple Note-Taking Application For TI84 Plus CE PYTHON Calculators
 by PaxLak 
 Version 0.1 (08/28/2025)
 """
-from ti_system import recall_list, store_list, disp_clr
+from ti_system import recall_list, store_list, disp_clr # type: ignore
 
 notes = recall_list("NOTES")
 
